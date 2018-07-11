@@ -4,5 +4,6 @@ class Teacher < User
 
   def teach(array)
     knowledge=array[rand(array.length)]
+    knowledge
   end
 end
